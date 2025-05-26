@@ -1,0 +1,40 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+}
+button {
+  padding: 6px 12px;
+  background-color: #2d7f3f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.resumen {
+  margin: 10px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
